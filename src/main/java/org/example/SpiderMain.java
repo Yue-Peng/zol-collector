@@ -7,10 +7,10 @@ import us.codecraft.webmagic.Spider;
 public class SpiderMain {
     public static void main(String[] args) {
 
-        String[] baseUrls = new String[]{
-                "http://detail.zol.com.cn/cell_phone_index/subcate57_613_list_${i}.html"};
-
         /*String[] baseUrls = new String[]{
+                "http://detail.zol.com.cn/cell_phone_index/subcate57_613_list_${i}.html"};*/
+
+        String[] baseUrls = new String[]{
                 "http://detail.zol.com.cn/cell_phone_index/subcate57_613_list_${i}.html",
                 "http://detail.zol.com.cn/cell_phone_index/subcate57_544_list_${i}.html",
                 "http://detail.zol.com.cn/cell_phone_index/subcate57_49202_list_${i}.html",
@@ -104,7 +104,7 @@ public class SpiderMain {
                 "http://detail.zol.com.cn/cell_phone_index/subcate57_35005_list_${i}.html",
                 "http://detail.zol.com.cn/cell_phone_index/subcate57_35228_list_${i}.html",
                 "http://detail.zol.com.cn/cell_phone_index/subcate57_599_list_${i}.html"
-        };*/
+        };
         String[] urls = new String[10 * baseUrls.length];
         int num = 0;
         for (int i = 0; i < baseUrls.length; i++) {
